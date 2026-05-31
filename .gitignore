@@ -1,0 +1,52 @@
+# Local machine settings
+local.properties
+
+# Android / Gradle
+.gradle/
+build/
+**/build/
+
+# .NET / WPF
+bin/
+obj/
+**/bin/
+**/obj/
+
+# CMake / Visual Studio
+CMakeFiles/
+CMakeCache.txt
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.exe
+*.dll
+*.old
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Runtime logs and captures
+*.log
+*_out.txt
+*_err.txt
+*.raw
+*.bmp
+
+# Packaged release artifacts
+*.aab
+*.apk
+*.zip
+*.exe
+PhoneCam/New download App/
+PhoneCam/dist/
+
+# Generated build directories with custom names
+build-*/
+
+# Generated analysis output
+graphify-out/
+
+
+

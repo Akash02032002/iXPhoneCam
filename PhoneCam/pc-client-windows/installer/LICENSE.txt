@@ -1,0 +1,18 @@
+PhoneCam License Agreement
+
+Copyright (c) 2026 PhoneCam
+
+Permission is hereby granted, free of charge, to use this software for personal
+or internal testing purposes.
+
+This software is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose and noninfringement. In no event shall the
+authors or copyright holders be liable for any claim, damages or other
+liability, whether in an action of contract, tort or otherwise, arising from,
+out of or in connection with the software or the use or other dealings in the
+software.
+
+PhoneCam uses camera, microphone, local network, USB/ADB, and Bluetooth
+features to stream media between your Android phone and your Windows PC. Use
+the software only where you have permission to record or transmit audio/video.

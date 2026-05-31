@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <RootNamespace>PhoneCamUI</RootNamespace>
+    <AssemblyName>PhoneCamUI</AssemblyName>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\build\Release\PhoneCamService.exe" CopyToOutputDirectory="PreserveNewest" Link="PhoneCamService.exe" />
+    <None Include="..\..\build\Release\avcodec-*.dll" CopyToOutputDirectory="PreserveNewest" Link="%(Filename)%(Extension)" />
+    <None Include="..\..\build\Release\avdevice-*.dll" CopyToOutputDirectory="PreserveNewest" Link="%(Filename)%(Extension)" />
+    <None Include="..\..\build\Release\avfilter-*.dll" CopyToOutputDirectory="PreserveNewest" Link="%(Filename)%(Extension)" />
+    <None Include="..\..\build\Release\avformat-*.dll" CopyToOutputDirectory="PreserveNewest" Link="%(Filename)%(Extension)" />
+    <None Include="..\..\build\Release\avutil-*.dll" CopyToOutputDirectory="PreserveNewest" Link="%(Filename)%(Extension)" />
+    <None Include="..\..\build\Release\swresample-*.dll" CopyToOutputDirectory="PreserveNewest" Link="%(Filename)%(Extension)" />
+    <None Include="..\..\build\Release\swscale-*.dll" CopyToOutputDirectory="PreserveNewest" Link="%(Filename)%(Extension)" />
+    <None Include="..\..\..\mobile-android\app\build\outputs\apk\debug\app-debug.apk" CopyToOutputDirectory="PreserveNewest" Link="app-debug.apk" />
+  </ItemGroup>
+</Project>

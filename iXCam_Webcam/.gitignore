@@ -1,0 +1,44 @@
+# Local machine settings
+local.properties
+**/local.properties
+.idea/
+**/.idea/
+
+# Android / Gradle
+.gradle/
+build/
+**/build/
+
+# .NET / WPF
+bin/
+obj/
+**/bin/
+**/obj/
+
+# CMake / Visual Studio
+CMakeFiles/
+CMakeCache.txt
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Runtime logs and captures
+*.log
+*_out.txt
+*_err.txt
+*.raw
+*.bmp
+
+# Packaged binaries
+dist/
+*.exe
+*.dll
+*.apk
+
+# Generated analysis output
+graphify-out/
